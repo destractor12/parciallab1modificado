@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1570491069 source:c:\users\alumno\desktop\seratti_nicolas_1f\seratti_nicolas_1f\utn.c
+	"Utn.h"
+	<stdlib.h>
+
+1570489101 source:c:\users\alumno\desktop\seratti_nicolas_1f\seratti_nicolas_1f\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1570495852 c:\users\alumno\desktop\seratti_nicolas_1f\seratti_nicolas_1f\cliente.h
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"Fecha.h"
+	"Utn.h"
+
+1570486727 c:\users\alumno\desktop\seratti_nicolas_1f\seratti_nicolas_1f\fecha.h
+
+1570493341 c:\users\alumno\desktop\seratti_nicolas_1f\seratti_nicolas_1f\utn.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1570495470 source:c:\users\alumno\desktop\seratti_nicolas_1f\seratti_nicolas_1f\cliente.c
+	"Cliente.h"
+
+1570567620 source:c:\users\nico\desktop\parciallab1-master\seratti_nicolas_1f\seratti_nicolas_1f\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cliente.h"
+
+1570567620 c:\users\nico\desktop\parciallab1-master\seratti_nicolas_1f\seratti_nicolas_1f\cliente.h
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"Fecha.h"
+	"Utn.h"
+
+1570481690 c:\users\nico\desktop\parciallab1-master\seratti_nicolas_1f\seratti_nicolas_1f\fecha.h
+
+1570481690 c:\users\nico\desktop\parciallab1-master\seratti_nicolas_1f\seratti_nicolas_1f\utn.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1570481690 source:c:\users\nico\desktop\parciallab1-master\seratti_nicolas_1f\seratti_nicolas_1f\utn.c
+	"Utn.h"
+	<stdlib.h>
+
+1570567548 source:c:\users\nico\desktop\parciallab1-master\seratti_nicolas_1f\seratti_nicolas_1f\cliente.c
+	"Cliente.h"
+
