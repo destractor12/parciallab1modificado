@@ -34,7 +34,7 @@ typedef struct
 
 void cargarHarcodeEstructurajuegos(eJuegos[],int);
 void inicializarEstadosEstructura(eCliente[],int);
-void menu(eCliente[],int,eJuegos[],eAlquileres[];);
+void menu(eCliente[],int,eJuegos[], int,eAlquileres[], int);
 void alta(eCliente[], int, int);
 int idAutoIncrementalEstructura(eCliente[], int);
 int idAutoIncrementalEstructurajuegos(eJuegos[], int);
@@ -49,4 +49,13 @@ void ordenarSegunCriterio(eCliente[],int );
 void mostrarUnoEstructurajuegos(eJuegos[],int ,int);
 void mostrarListaEstructurajuegos(eJuegos[],int );
 void ordenarSegunCriteriojuegos(eJuegos[],int );
-void altaalquiler(eCliente[],int,int);
+int altaalquiler(eAlquileres[],int,int,eCliente[],int,eJuegos[]);
+int idAutoIncrementalEstructuraalquileres(eAlquileres[],int);
+void inicializarEstadosEstructuraalquiler(eAlquileres[],int);
+int generica_buscarEspacioalquiler(eAlquileres[], int);
+float promedioalquileres(eAlquileres[],int,eJuegos[]);
+void burbujeoeficiente(eJuegos[],int);
+void cargarHarcode(eCliente[],int);
+void insercionclientes(eCliente[],int);
+int validarEntero(int,char[],int,int);
+void superarpromedio(eJuegos[],int,eAlquileres[],int);

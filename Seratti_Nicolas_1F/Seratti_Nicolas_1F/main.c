@@ -1,18 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Cliente.h"
-#define TAM 3
+#define TAM 5
+#define TAMCLIENTE 10
+#define TAMJUEGO 3
 
 
 int main()
 {
-    eCliente clientes[TAM];
+    eCliente clientes[TAMCLIENTE];
 
-    eJuegos juegos[TAM];
+    eJuegos juegos[TAMJUEGO];
 
     eAlquileres alquiler[TAM];
 
-    menu(clientes, TAM, juegos,alquiler);
+    menu(clientes, TAMCLIENTE, juegos,TAMJUEGO ,alquiler,TAM );
 
     return 0;
 }
